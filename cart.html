@@ -5,7 +5,6 @@
   <title>Muddy Paws</title>
   <link rel="stylesheet" href="../styles/cart.css">
   <link rel="stylesheet" href="../styles/common.css">
-  <script src="../js/todo.js"></script>
 </head>
 
 <body>
@@ -22,8 +21,8 @@
 	<div class="container">
 		<div>
 			<h3>Your Shopping Cart</h3>
-			<div class="row">
-				<div class="item">
+			<div class="row" id="item-list">
+				<div class="item" id="item-1">
 					<h3 class="item-number">1</h3>
 					<div class="img">
 						<img src="resources/images/harness.png"/>
@@ -34,17 +33,17 @@
 							<p class="item-price">$24.99</p>
 						</div>
 						<p class="item-description">
-						- Type: <span id="type-1">Dog</span><br>
-						- Size: <span id="size-1">Medium</span><br>
-						- Color: <span id="color-1">Strawberry</span><br>
+						- Type: Dog<br>
+						- Size: Medium<br>
+						- Color: Strawberry<br>
 						</p>
 						<div class="text-footer">
 							<p class="remove"></p>
-							<p class="remove">remove</p>
+							<p class="remove" id="remove-1">remove</p>
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item" id="item-2">
 					<h3 class="item-number">2</h3>
 					<div class="img">
 						<img src="resources/images/harness-attachment.jpg"/>
@@ -55,13 +54,13 @@
 							<p class="item-price">$10.99</p>
 						</div>
 						<p class="item-description">
-						- Type: <span id="type-2">Dog</span><br>
-						- Size: <span id="size-2">Medium</span><br>
-						- Color: <span id="color-2">Strawberry</span><br>
+						- Type: Dog<br>
+						- Size: Medium<br>
+						- Color: Strawberry<br>
 						</p>
 						<div class="text-footer">
 							<p class="remove"></p>
-							<p class="remove">remove</p>
+							<p class="remove" id="remove-2">remove</p>
 						</div>
 					</div>
 				</div>
@@ -73,11 +72,11 @@
 		<div class="summary">
 			<h3>Order Summary</h3>
 			<div class="costs">
-				<div class="costs-item">
+				<div class="costs-item" id="costs-1">
 					<p>1 Harness<br> (Dog, Medium, Strawberry)</p>
 					<p class="right-align">$24.99</p>
 				</div>
-				<div class="costs-item">
+				<div class="costs-item" id="costs-2">
 					<p>1 Food & Drink Storage<br> (Dog, Medium, Strawberry)</p>
 					<p class="right-align">$10.99</p>
 				</div>
@@ -90,6 +89,7 @@
 				</div>
 		</div>
 	</div>
-
+	
+    <script src="./scripts/cart.js"></script>
 </body>
 </html>
