@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Muddy Paws</title>
+  <link rel="stylesheet" href="../styles/cart.css">
+  <link rel="stylesheet" href="../styles/common.css">
+  <script src="../js/todo.js"></script>
+</head>
+
+<body>
+	<header>
+		<h2><a href="../index.html">Muddy Paws</a></h2>
+		<a href="./cart.html">
+			<div class="shopping-cart">
+				<p id="cart-count">2</p>
+				<img id="cart" src="../resources/images/shopping-cart.svg" />
+			</div>
+		</a>
+	</header>
+	
+	<div class="container">
+		<div>
+			<h3>Your Shopping Cart</h3>
+			<div class="row">
+				<div class="item">
+					<h3 class="item-number">1</h3>
+					<div class="img">
+						<img src="resources/images/harness.png"/>
+					</div>
+					<div class="text">
+						<div class="text-header">
+							<p class="item-name">Harness</p>
+							<p class="item-price">$24.99</p>
+						</div>
+						<p class="item-description">
+						- Type: <span id="type-1">Dog</span><br>
+						- Size: <span id="size-1">Medium</span><br>
+						- Color: <span id="color-1">Strawberry</span><br>
+						</p>
+						<div class="text-footer">
+							<p class="remove"></p>
+							<p class="remove">remove</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<h3 class="item-number">2</h3>
+					<div class="img">
+						<img src="resources/images/harness-attachment.jpg"/>
+					</div>
+					<div class="text">
+						<div class="text-header">
+							<p class="item-name">Food & Drink Storage</p>
+							<p class="item-price">$10.99</p>
+						</div>
+						<p class="item-description">
+						- Type: <span id="type-2">Dog</span><br>
+						- Size: <span id="size-2">Medium</span><br>
+						- Color: <span id="color-2">Strawberry</span><br>
+						</p>
+						<div class="text-footer">
+							<p class="remove"></p>
+							<p class="remove">remove</p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<a class="return" href="store.html">&#60; Return to store</a>
+				</div>
+			</div>
+		</div>
+		<div class="summary">
+			<h3>Order Summary</h3>
+			<div class="costs">
+				<div class="costs-item">
+					<p>1 Harness<br> (Dog, Medium, Strawberry)</p>
+					<p class="right-align">$24.99</p>
+				</div>
+				<div class="costs-item">
+					<p>1 Food & Drink Storage<br> (Dog, Medium, Strawberry)</p>
+					<p class="right-align">$10.99</p>
+				</div>
+			</div>
+			<div class="total right-align">
+				Total: <span id="total">$35.98</span>
+			</div>
+			<div class="row checkout">
+					<div class="right-align"><a href="#"><button>Checkout &#62;</button></a></div>
+				</div>
+		</div>
+	</div>
+
+</body>
+</html>
