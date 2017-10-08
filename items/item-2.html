@@ -5,7 +5,6 @@
   <title>Muddy Paws</title>
   <link rel="stylesheet" href="../styles/items.css">
   <link rel="stylesheet" href="../styles/common.css">
-  <script src="../js/todo.js"></script>
 </head>
 
 <body>
@@ -25,7 +24,7 @@
 		</div>
 		<div class="item-info">
 			<div>
-				<h3>Harness Food & Drink Storage</h3>
+				<h3>Harness Food and Storage Attachment</h3>
 				<p>$10.99</p>
 			</div>
 			<div class="row">
@@ -34,30 +33,41 @@
 			
 			<div class="row">
 				<p>Type:</p>
-				<div class="option">
+				<div class="option" id="type">
 					<button class="select">Dog</button>
 					<button class="select">Cat</button>
 				</div>
 			</div>
 			
 			<div class="row">
+				<p>Select Size:</p>
+				<div class="option" id="size">
+					<button class="select select-size">Tiny</button>
+					<button class="select select-size">Small</button>
+					<button class="select select-size">Medium</button>
+					<button class="select select-size">Large</button>
+				</div>
+			</div>
+			
+			<div class="row">
 				<p>Select Color:</p>
-				<div class="option">
-					<button class="select-color" id="strawberry"></button>
-					<button class="select-color" id="blackberry"></button>
-					<button class="select-color" id="crazyberry"></button>
-					<button class="select-color" id="camouflage"></button>
-					<button class="select-color" id="night_moon"></button>
-					<button class="select-color" id="fire_orange"></button>
+				<div class="option" id="color">
+					<button class="select-color" id="strawberry">Strawberry</button>
+					<button class="select-color" id="blackberry">Blackberry</button>
+					<button class="select-color" id="crazyberry">Crazyberry</button>
+					<button class="select-color" id="camouflage">Camouflage</button>
+					<button class="select-color" id="night_moon">Night Moon</button>
+					<button class="select-color" id="fire_orange">Fire Orange</button>
 				</div>
 			</div>
 			
 			<div class="row">
 			<a class="return" href="../store.html">&#60; return to store</a>
-			<div class="right-align"><a href="../cart.html"><button>Add to Cart</button></a></div>
+			<div class="right-align"><button id="addToCart">Add to Cart</button></div>
 		</div>
 		</div>
 	</div>
 
+	<script src="../scripts/item.js"></script>
 </body>
 </html>
