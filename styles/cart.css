@@ -70,7 +70,7 @@
 .summary {
 	padding: 0 50px;
 	border: 1px solid #000;
-	height: 800px;
+	height: 700px;
 }
 
 .costs-item {
@@ -85,12 +85,12 @@
 	font-weight: 600;
 	font-size: 1.5em;
 	position: fixed;
-	top: 780px;
+	top: 680px;
 	right: 100px;
 }
 
 .checkout {
 	position: fixed;
-	top: 800px;
+	top: 700px;
 	right: 100px;
 }
