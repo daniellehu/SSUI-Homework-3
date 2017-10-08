@@ -14,9 +14,10 @@ for (var i = 0; i < types.children.length; i++ ) {
 			if (each_child == this) {
 				if (!this.classList.contains("selected")) {
 					this.classList.add("selected");	
-					selected_type = this.innerText
+					selected_type = this.innerText;
 				} else {
 					this.classList.remove("selected");
+					selected_type = null;
 				}
 			} else {
 				if (each_child.classList.contains("selected")) {
@@ -35,9 +36,10 @@ for (var i = 0; i < sizes.children.length; i++ ) {
 			if (each_child == this) {
 				if (!this.classList.contains("selected")) {
 					this.classList.add("selected");	
-					selected_size = this.innerText
+					selected_size = this.innerText;
 				} else {
 					this.classList.remove("selected");
+					selected_size = null;
 				}
 			} else {
 				if (each_child.classList.contains("selected")) {
@@ -56,9 +58,10 @@ for (var i = 0; i < colors.children.length; i++ ) {
 			if (each_child == this) {
 				if (!this.classList.contains("outlined")) {
 					this.classList.add("outlined");	
-					selected_color = this.innerText
+					selected_color = this.innerText;
 				} else {
 					this.classList.remove("outlined");
+					selected_color = null;
 				}
 			} else {
 				if (each_child.classList.contains("outlined")) {
