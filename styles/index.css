@@ -1,20 +1,3 @@
-@font-face {
-    font-family: avenir;
-    src: url("../resources/fonts/AvenirLTStd-Roman.otf");
-}
-
-@font-face {
-    font-family: avenir_bold;
-    src: url("../resources/fonts/Avenir LT 95 Black.ttf");
-}
-
-html, body {
-	margin: 0;
-	padding: 0;
-	font-family: avenir, sans-serif;
-	overflow: hidden;
-}
-
 .side-bar {
 	position: absolute;
 	height: 100%;
@@ -30,48 +13,9 @@ html, body {
 	width: 60%;
 }
 
-h1 {
-	font-size: 4em;
-	margin-bottom: 0;
-	font-family: avenir_bold;
-}
-
-h3 {
-	font-size: 2em;
-	font-family: avenir_bold;
-}
-
-p {
-	font-size: 1.2em;
-}
-
 .description {
 	width: 35%;
 	position: absolute;
 	left: 40%;
 	padding: 10%;
-	
-}
-
-.row {
-	margin: 50px 0;
-}
-
-.right-align {
-	text-align: right;
-}
-
-button {
-	background-color: #000;
-	border: 2px solid #FFF;
-	color: white;
-	padding: 10px 15px;
-	font-size: 1.2em;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #FFF;
-	color: #000;
-	border: 2px solid #000;
 }
